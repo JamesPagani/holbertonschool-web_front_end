@@ -142,6 +142,10 @@ a:active {
     color: var(--text-color);
 }
 
+.footer ul {
+    text-align: right;
+}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
