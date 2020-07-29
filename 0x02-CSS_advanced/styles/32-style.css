@@ -132,7 +132,7 @@ a:active {
 }
 
 .nav .nav-link::before {
-    content: empty;
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -165,7 +165,7 @@ a:active {
     width: 50%;
 }
 
-[class|=".col-"] {
+[class^="col-"] {
     float: left;
     padding: 0.5rem;
 }
@@ -177,9 +177,9 @@ a:active {
 }
 
 .row::after {
-    content: none;
+    content: "";
     display: table;
-    float: none;
+    clear: both;
 }
 
 :root {
@@ -289,7 +289,7 @@ a:active {
 
 .card-testimonial .card-quote cite {
     display: block;
-    padding: 1rem;
+    padding-top: 1rem;
     color: var(--color-primary);
 }
 
@@ -375,7 +375,7 @@ a:active {
     margin-bottom: 5rem;
 }
 
-.section-hero {
+.section-hero .section-inner {
     padding: 10rem 40rem 2rem 0;
 }
 
