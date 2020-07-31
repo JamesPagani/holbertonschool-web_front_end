@@ -1,0 +1,7 @@
+/* Sass has it's own for each loop, just in case. */
+@import '11-photos.scss';
+@each $name in $list-names {
+    .photo-#{$name} {
+        background: image-url("photos/#{$name}.jpg") no-repeat;
+    }
+}
