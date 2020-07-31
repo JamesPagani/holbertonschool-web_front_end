@@ -1,0 +1,11 @@
+/* We can import variables from another file with with @import (but nowadays Sass recommends using @use for security and convinience sake) */
+@import '10-colors.scss';
+.red {
+    color: $red;
+}
+.green {
+    color: $green;
+}
+.blue {
+    color: $blue;
+}

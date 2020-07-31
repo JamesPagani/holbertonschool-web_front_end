@@ -1,0 +1,7 @@
+/* To avoid making a 'button :hover' declaration, the & operator will append the nested declaration on top of the father one. */
+button {
+    color: #FF0000;
+    &:hover {
+        color: #00FF00;
+    }
+}

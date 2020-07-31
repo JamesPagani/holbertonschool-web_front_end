@@ -1,0 +1,10 @@
+/* A proper way to store variables in CSS, instead of relying on custom properties */
+$text-color: #3D3D3D;
+
+body {
+    color: $text-color;
+}
+
+p {
+    color: $text-color;
+}

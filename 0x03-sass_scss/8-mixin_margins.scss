@@ -1,0 +1,13 @@
+/* The mixin at-rule is a great way to reuse properties in various declarations, and can accpet varaibles. They are used with the include at-rule */
+@mixin horizonal-margin($value) {
+    margin-left: $value;
+    margin-right: $value;
+}
+
+body {
+    @include horizonal-margin(10px);
+}
+
+div {
+    @include horizonal-margin(15px);
+}
