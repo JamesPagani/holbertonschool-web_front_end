@@ -547,7 +547,7 @@
     z-index: 0;
   }
 
-  .hero-article .section-inner {
+  .section-inner .hero-article {
     text-align: center;
     align-items: center;
     min-height: 40vh;
