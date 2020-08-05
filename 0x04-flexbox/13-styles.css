@@ -575,6 +575,10 @@
     min-width: 20%;
   }
 
+  .main-article {
+    padding: 5rem 0;
+}
+
 /* Post Meta
     ============================= */
 
