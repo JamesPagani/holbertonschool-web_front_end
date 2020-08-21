@@ -191,6 +191,7 @@
   
   .off-screen {
     left: -100vw;
+    position: absolute;
   }
 
   .skip-link {
